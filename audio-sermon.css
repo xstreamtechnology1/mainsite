@@ -1,0 +1,243 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333; /* Default text color */
+}
+
+#audio-sermons{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333; /* Heading text color */
+}
+
+.audio-sermon {
+    margin-bottom: 30px;
+}
+
+.audio-player
+ {
+    position: relative;
+    text-align: center;
+}
+
+.audio-player2{
+    position: relative;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+#volume-control {
+    width: 100px;
+}
+
+.progress {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+}
+
+.progress-bar, .progress-bar-1 {
+    height: 100%;
+    background-color: #ff1e00;
+}
+
+
+.sermon-type2{
+    display: flex;
+   
+}
+
+.sermon-type2 p{
+   
+    font-weight:bold;
+    color: #741a1a;
+    font-size: 30px;
+   
+    
+}
+
+
+.sermon-type2 {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgba(2, 0, 0, 0.247); /* Red border with 50% opacity */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Black shadow with 50% opacity */
+    margin-bottom: 50px;
+  }
+  
+
+  
+
+.video-tab2{
+   
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-style:solid;
+    border-radius: 50px; 
+}
+
+.audio-tab2{
+     margin-top: 20px;
+    margin-bottom: 50px;
+    border-style:solid;
+    border-radius: 50px; 
+    background-color: red;
+}
+
+
+.video-tab2 p{
+    font-size: 27px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.audio-tab2 p{
+    font-size: 27px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    
+}
+.video-tab2:hover{
+    background-color: red;
+} 
+.audio-tab2:hover{
+    background-color: red;;
+}
+
+.aud-sermon{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .aud-sermon h2{
+     font-size: 50px;
+ }
+
+ /* Styles for Play/Pause Button */
+.play-pause-btn{
+    width: 30px;
+    height: 30px;
+    background-image: url('pause-icon.png'); /* Adjust the path to your play button image */
+    background-size: cover;
+}
+
+.pause-btn {
+    width: 30px;
+    height: 30px;
+    background-image: url('pause-icon.png'); /* Adjust the path to your pause button image */
+    background-size: cover;
+}
+.play-btn {
+    width: 20px;
+    height: 30px;
+    
+    background-image: url('play-icon.png'); /* Adjust the path to your pause button image */
+    background-size: cover;
+}
+
+/* Add these styles for the audio background */
+.audio-background {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Adjust spacing between background and player */
+}
+
+/* Add these styles to adjust the size and position of play/pause buttons */
+.play-btn {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* Adjust spacing between buttons */
+}
+
+.head-image{
+    width:200px;
+}
+
+.audio-background {
+    width: 100%; /* Set the width of the container */
+    height: auto; /* Ensure aspect ratio is maintained */
+    overflow: hidden; /* Hide overflow if necessary */
+}
+
+#bg-video {
+    width: 100%; /* Set the width of the video */
+    height: auto; /* Ensure aspect ratio is maintained */
+    display: block; /* Ensure the video fills the container */
+}
+
+#bg-video2 {
+    width: 100%; /* Set the width of the video */
+    height: auto; /* Ensure aspect ratio is maintained */
+    display: block; /* Ensure the video fills the container */
+}
+
+#bg-video3 {
+    width: 100%; /* Set the width of the video */
+    height: auto; /* Ensure aspect ratio is maintained */
+    display: block; /* Ensure the video fills the container */
+}
+
+#bg-video4 {
+    width: 100%; /* Set the width of the video */
+    height: auto; /* Ensure aspect ratio is maintained */
+    display: block; /* Ensure the video fills the container */
+}
+
+#bg-video5 {
+    width: 100%; /* Set the width of the video */
+    height: auto; /* Ensure aspect ratio is maintained */
+    display: block; /* Ensure the video fills the container */
+}
+
+#bg-video6 {
+    width: 100%; /* Set the width of the video */
+    height: auto; /* Ensure aspect ratio is maintained */
+    display: block; /* Ensure the video fills the container */
+}
+.d-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  max-width: 600px;
+}
+
+.d-button:hover {
+    background-color: #347037;
+}
+
+

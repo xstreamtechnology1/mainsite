@@ -1,0 +1,156 @@
+/* CSS Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333; /* Default text color */
+}
+
+#sermons {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom:20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333; /* Heading text color */
+}
+
+.video-sermon,
+.audio-sermon {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sermon-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.sermon-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333; /* Title text color */
+    font-family: 'Arial', sans-serif; /* Custom font */
+}
+
+.sermon-info p {
+    margin: 0;
+    color: #666; /* Paragraph text color */
+}
+
+.audio-sermon audio {
+    width: 100%;
+}
+
+.sermon-type{
+    display: flex;
+   
+}
+
+.sermon-type p{
+   
+    font-weight:bold;
+    color: #741a1a;
+    font-size: 30px;
+   
+    
+}
+
+
+.sermon-type {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgba(2, 0, 0, 0.247); /* Red border with 50% opacity */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Black shadow with 50% opacity */
+    margin-bottom: 50px;
+  }
+  
+
+  
+
+.video-tab{
+   
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-style:solid;
+    border-radius: 50px; 
+    background-color: red;
+}
+
+.audio-tab{
+     margin-top: 20px;
+    margin-bottom: 50px;
+    border-style:solid;
+    border-radius: 50px; 
+}
+
+
+.video-tab p{
+    font-size: 27px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.audio-tab p{
+    font-size: 27px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.video-tab:hover{
+    background-color: red;
+} 
+.audio-tab:hover{
+    background-color: red;;
+}
+.audio-tab:active{
+    background-color: green;
+}
+.video-tab:active{
+    background-color: green;
+}
+
+
+
+/* CSS for screens smaller than 375px width (iPhone SE) and 667px height */
+@media only screen and (max-width: 375px) and (max-height: 667px) {
+    
+    .video-tab{
+     
+        font-size: 10px;
+    }
+}
+
+.vid-sermon{
+   text-align: center;
+}
+.vid-sermon h2{
+    font-size: 50px;
+}
+
+
+
+
+/*FTrntbyE8ihUmUZj*/
